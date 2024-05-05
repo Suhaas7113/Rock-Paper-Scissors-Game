@@ -1,0 +1,4 @@
+Interactive Interface: The game features a visually appealing and intuitive interface designed using HTML and CSS. Elements are styled to enhance user experience and make the game enjoyable to play.
+Gameplay Mechanics: Users can click on buttons representing Rock, Paper, or Scissors to make their choice. The computer's choice is randomly generated. The outcome (win, lose, or draw) is displayed dynamically on the screen.
+Dynamic Results: After the user makes a selection, the game determines the winner based on the rules of Rock, Paper, Scissors. The result (win, lose, or draw) is immediately displayed with accompanying messages.
+Score Tracking: The game keeps track of the user's score, displaying it prominently on the screen. Each win increases the score, and losses or draws do not affect it
