@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rps.css">
+    <title>Rock Paper Scissors Game</title>
+</head>
+<body>
+    <h2>ROCK  PAPER SCISSORS</h2>
+    <div class="game">
+        <div class="you">
+            <div class="choice" id="rock">
+                <img src="images/rock.png" alt="rock">
+            </div>
+            <div class="choice" id="paper">
+                <img src="images/paper.png" alt="paper">
+            </div>
+            <div class="choice" id="scissors">
+                <img src="images/scissors.png" alt="scissors">
+            </div>
+            <p><b>SELECT YOUR CHOICE</b></p>
+        </div>
+        <div class = "center">
+            <div class="scoreboard">
+                <div class="score">
+                    <p id="yourscore"><b>0</b></p>
+                    <img src="images/men.avif" alt="men" width="50px" class="image">
+                </div>
+                <div class="score">
+                    <p id="compscore"><b>0</b></p>
+                    <img src="images/robot.avif" alt="robot" width="50px" class="image">
+                </div>
+                <div class ="para">
+                    <b>LET'S BEGIN</b>
+                </div>
+            </div>
+        </div>
+        <div class="computer">
+            <img src="images/robot.avif" alt="robot" width = "50px" id ="img">
+            <p><b>COMPUTER CHOICE</b></p>
+        </div>
+    </div>
+    <script src="rps.js"></script>
+</body>
+</html>
